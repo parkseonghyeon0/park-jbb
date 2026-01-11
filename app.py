@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 from streamlit_calendar import calendar
 
 # --- 1. 기본 설정 및 모바일 스타일링 ---
-st.set_page_config(page_title="스마트 학습 관리", layout="mobile", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="스마트 학습 관리", layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown("""
     <style>
